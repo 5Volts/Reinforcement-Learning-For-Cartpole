@@ -18,22 +18,22 @@ After downloading, cd into the directory and type `python RL_for_cartpole.py`, i
 
 There are severals variables you can pass:
 
-'--watch_it_train'
+`--watch_it_train`
 A boolean, put it as True if you want to watch the AI train.
 Ex: `python RL_for_cartpole.py --watch_it_train True`                      
 
-'--explore_proba'
+`--explore_proba`
 Explore probability. Default is set to 0.98 .Bear in mind that putting it too low might cause the model to never converge.
 
-'--train_step'
+`--train_step`
 Number of Training steps                      
 
-'--test_episodes'
+`--test_episodes`
 Number of Testing episodes                      
 
-'--select_top_best'
+`--select_top_best`
 Select from top K examples
                       
-'--sample'
+`--sample`
 Number of generated samples per training steps
 
